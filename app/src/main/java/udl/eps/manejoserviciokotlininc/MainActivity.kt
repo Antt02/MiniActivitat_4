@@ -32,9 +32,9 @@ class MainActivity : AppCompatActivity() , View.OnClickListener {
 
     override fun onClick(src: View) {
         when(src.id) {
-            R.id.btnInSound -> startBroadcast("Sound")//startService("Sound")
-            R.id.btnInSong -> startBroadcast("Song")//startService("Song")
-            R.id.btnFin -> stopBroadcast()//stopService()
+            R.id.btnInSound -> startBroadcast("Sound")
+            R.id.btnInSong -> startBroadcast("Song")
+            R.id.btnFin -> stopBroadcast()
         }
     }
     private fun startBroadcast(mode: String){
