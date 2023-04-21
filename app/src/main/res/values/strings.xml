@@ -1,9 +1,18 @@
 <resources>
-    <string name="app_name">ManejoServicioKotlin</string>
-    <string name="creaserv">Servicio creado</string>
-    <string name="finaserv">Servicio finalizado</string>
-    <string name="iniserv">Servicio iniciado</string>
-    <string name="botoIn">Iniciar</string>
-    <string name="botoFin">Detener</string>
+    <!-- app related -->
+    <string name="app_name">MiniActivitat4</string>
     <string name="tituloAct">Utilización de Servicios</string>
+    <!-- BroadcastReciever toast messages -->
+    <string name="iniservSoundBr">[BroadcastReciever] - Iniciando reproduccion sonido</string>
+    <string name="iniservSongBr">[BroadcastReciever] - Iniciando reproduccion canción</string>
+    <string name="finaservBr">[BroadcastReciever] - Finalizando servicio</string>
+    <!-- Service toast messages -->
+    <string name="creaserv">Servicio creado</string>
+    <string name="iniservSound">Servicio sonido iniciado</string>
+    <string name="iniservSong">Servicio canción iniciado</string>
+    <string name="finaserv">Servicio finalizado</string>
+    <!-- Button tags -->
+    <string name="botoInSound">Iniciar sonido</string>
+    <string name="botoInSong">Iniciar canción</string>
+    <string name="botoFin">Detener</string>
 </resources>

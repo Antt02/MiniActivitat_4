@@ -21,19 +21,26 @@
         tools:ignore="MissingConstraints">
 
         <Button
-            android:text="@string/botoIn"
-            android:id="@+id/btnIn"
+            android:text="@string/botoInSound"
+            android:id="@+id/btnInSound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:text="@string/botoInSong"
+            android:id="@+id/btnInSong"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
         </Button>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/botoFin"
-            android:id="@+id/btnFin">
-        </Button>
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btnFin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/botoFin" />
 
 </LinearLayout>
